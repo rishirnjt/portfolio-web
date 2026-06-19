@@ -136,35 +136,7 @@ export default function Portfolio() {
                 Contact Me
               </a>
             </div>
-
-            <div className="flex gap-8 mt-12">
-              <div>
-                <h3 className="text-3xl font-bold text-green-500">
-                  4+
-                </h3>
-                <p className="text-gray-500 text-sm">
-                  Projects
-                </p>
-              </div>
-
-              <div>
-                <h3 className="text-3xl font-bold text-green-500">
-                  1
-                </h3>
-                <p className="text-gray-500 text-sm">
-                  Internship
-                </p>
-              </div>
-
-              <div>
-                <h3 className="text-3xl font-bold text-green-500">
-                  10+
-                </h3>
-                <p className="text-gray-500 text-sm">
-                  Technologies
-                </p>
-              </div>
-            </div>
+            
           </motion.div>
 
           {/* RIGHT */}
