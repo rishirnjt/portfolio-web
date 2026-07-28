@@ -42,7 +42,14 @@ export default function Portfolio() {
         "Vehicle parts inventory and order management system with authentication, CRUD operations, stock tracking, and PostgreSQL database integration.",
       tech: ["C#", ".NET", "PostgreSQL"],
       github: "https://github.com/rishirnjt",
-    }
+    },
+   {
+      title: "Ecommerce.API – Multi-Vendor Platform",
+      description:
+        "Multi-vendor e-commerce platform with vendor registration workflows, JWT authentication, role-based access control, and background job processing.",
+      tech: ["C#", ".NET", "React", "PostgreSQL", "Redis"],
+      github: "https://github.com/rishirnjt",
+    },
   ];
 
   const skills = {
