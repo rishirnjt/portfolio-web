@@ -43,7 +43,7 @@ export default function Portfolio() {
       tech: ["C#", ".NET", "PostgreSQL"],
       github: "https://github.com/rishirnjt",
     },
-   {
+    {
       title: "Ecommerce.API – Multi-Vendor Platform",
       description:
         "Multi-vendor e-commerce platform with vendor registration workflows, JWT authentication, role-based access control, and background job processing.",
@@ -64,9 +64,9 @@ export default function Portfolio() {
       {/* NAVBAR */}
       <nav className="border-b border-green-500/20 sticky top-0 bg-black z-50">
         <div className="max-w-7xl mx-auto px-6 py-5 flex justify-between items-center">
-          <h1 className="text-2xl font-bold">
+          <div className="text-2xl font-bold">
             Rishi<span className="text-green-500">Ranjit</span>
-          </h1>
+          </div>
 
           <div className="hidden md:flex gap-8 text-gray-300">
             <a href="#about" className="hover:text-green-500">
@@ -115,6 +115,9 @@ export default function Portfolio() {
               <span className="block text-green-500">
                 Rishi Ranjit
               </span>
+              <span className="block">
+                Full Stack Developer from Nepal
+              </span>
             </h1>
 
             <h2 className="text-2xl md:text-3xl text-gray-300 mt-4">
@@ -143,7 +146,7 @@ export default function Portfolio() {
                 Contact Me
               </a>
             </div>
-            
+
           </motion.div>
 
           {/* RIGHT */}
@@ -183,7 +186,7 @@ export default function Portfolio() {
 
         </div>
       </motion.section>
-    
+
 
 
       {/* ABOUT */}
